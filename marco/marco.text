@@ -1,0 +1,24 @@
+Conceptos clave explicados de forma sencilla:
+* ¿Qué es la complejidad algorítmica?
+Es cómo medimos la eficiencia de un algoritmo.
+Se enfoca en cuánto tarda y cuánta memoria usa un algoritmo al procesar datos.
+
+* ¿Por qué es importante?
+Nos ayuda a elegir el mejor algoritmo para resolver un problema sin que tarde una eternidad.
+Si un algoritmo es muy ineficiente, será más lento a medida que crezca la cantidad de datos.
+
+*Tipos de complejidad (en tiempo)
+La notación O(...) (llamada Big O) nos ayuda a clasificar algoritmos según qué tan rápido crecen con la cantidad de datos (n):
+
+-O(1) → Constante: No importa cuántos datos haya, el tiempo siempre es el mismo.
+-O(log n) → Logarítmica: Aumentar los datos un montón solo incrementa un poco el tiempo.
+-O(n) → Lineal: Si los datos se duplican, el tiempo se duplica.
+-O(n²) → Cuadrática: Si los datos se duplican, el tiempo se multiplica por cuatro. (Ejemplo: algoritmos de ordenamiento como burbuja).
+-O(2ⁿ) → Exponencial: Cada dato extra hace que el tiempo crezca muchísimo. (Ejemplo: algoritmos de fuerza bruta).
+
+Ejemplo simple para entender la notación O()
+Supongamos que queremos buscar un número en una lista:
+
+-O(1) → Súper rápido: Si la lista ya está ordenada y el número siempre está en la misma posición.
+-O(n) → Buscar uno por uno: Si la lista no está ordenada y tenemos que revisar cada número.
+-O(log n) → Búsqueda binaria: Si la lista está ordenada y podemos dividirla en dos en cada paso (como buscar palabras en un diccionario).
