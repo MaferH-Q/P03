@@ -15,7 +15,11 @@ public class Principal {
 //Cada línea de este procedimiento es una asignación simple, lo que significa que toma un tiempo constante O(1)
 // Total de operaciones: O(1) + O(1) + O(1) + O(1) = O(1)
 // Orden de complejidad: O(1) Tiempo constante
-    
+
+
+
+
+     
 //B)Función para encontrar el máximo de dos números
     public static int max(int x, int y) {
         // Usa una condición para devolver el mayor O(1)
@@ -28,6 +32,10 @@ public class Principal {
 // Total de operaciones: O(1) + O(1) = O(1)
 // Orden de complejidad: O(1) -> Tiempo constante sin importar el tamaño de la entrada
 
+
+
+
+     
 //c) Función para sumar todos los elementos de un array
     public static int suma(int[] v) {
         int resultado = 0; // Inicializa la suma en 0 O(1)
@@ -46,6 +54,10 @@ public class Principal {
 // Total de operaciones: O(1) + O(n) * O(1) + O(1) = O(n)
 // Orden de complejidad: O(n) -> Crece linealmente con el tamaño del array
 
+
+
+
+     
 //d) Método para ordenar un array usando el algoritmo de Burbuja
     public static void ordenar(int[] v) {
         int n = v.length; // Tamaño del array O(1)
@@ -85,6 +97,9 @@ public class Principal {
         // Complejidad total: O(log y) en el mejor caso, O(y) en el peor
     }
 
+
+
+     
     // Método principal donde se ejecutan las funciones anteriores
     public static void main(String[] args) {
         // Prueba del método intercambia
